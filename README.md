@@ -16,7 +16,7 @@ hasFolderIcon|是否显示文件夹图标|Boolean|false
 ##### data structure
 属性|说明|类型|默认值
 ---|---|---|---
-des|列表中将要显示的名称|String|null
+des|列表中将要显示的名称|String|-
 
 注：传入`data`前须对其每个元素增加一个名称为`des`的属性，其值为列表中将要显示的名称
 
