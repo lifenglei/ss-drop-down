@@ -1,0 +1,23 @@
+{
+  "name": "ss-drop-down",
+  "version": "1.1.2",
+  "description": "An Vue dropdown component",
+  "main": "src/dropDown.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "dropdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssfe-team/ss-drop-down.git"
+  },
+  "author": "Chuanfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssfe-team/ss-drop-down/issues"
+  },
+  "homepage": "https://github.com/ssfe-team/ss-waterfall#readme"
+}
