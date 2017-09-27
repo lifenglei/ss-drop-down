@@ -54,7 +54,7 @@
     top: 32px;
     left: 0;
     width: 100%;
-    height: auto;
+    overflow-y: scroll;
     background: #FFFFFF;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .08);
     z-index: 2;
@@ -95,7 +95,6 @@
 
       &:active {
         background: #F3F3F3;
-        font-weight: bold;
         &:after {
           display: block;
           background-position: 0 -24px;
@@ -103,7 +102,6 @@
       }
 
       &[class~='selected'] {
-        font-weight: bold;
         &:after {
           display: block;
           background-position: 0 -24px;
