@@ -1,6 +1,6 @@
 {
   "name": "ss-drop-down",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A Vue dropdown component",
   "main": "src/dropDown.vue",
   "scripts": {
