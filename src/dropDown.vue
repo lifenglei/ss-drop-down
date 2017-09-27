@@ -13,7 +13,6 @@
 
     <div class="drop-down-drop"
          v-show="currentVisible"
-         :style="{height: height + 'px'}"
     >
       <div
           class="drop-down-drop-option"
@@ -56,10 +55,6 @@
       hasFolderIcon: { // 是否有文件夹图标
         type: Boolean,
         default: false
-      },
-      height: {
-        type: Number,
-        default: 250
       }
     },
     mounted() {
