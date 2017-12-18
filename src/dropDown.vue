@@ -6,7 +6,7 @@
        @mouseenter="handleMouseenter"
        @mouseleave="handleMouseleave"
   >
-    <div class="drop-down-sel">
+    <div class="drop-down-sel" :style="dropDownStyle">
       <i v-if="hasFolderIcon" class="icon-folder" :class="curFolder"></i>
       <span :title="da.sel">{{da.sel}}</span>
     </div>
@@ -55,6 +55,25 @@
       hasFolderIcon: { // 是否有文件夹图标
         type: Boolean,
         default: false
+      },
+      size: {
+        type: [String, Number],
+        default: 'small'
+      }
+    },
+    computed: {
+      dropDownStyle () {
+        switch (this.size) {
+          case 'small':
+            return {}
+          case 32:
+          case '32':
+            return {
+              'height': 32 + 'px',
+              'line-height': 32 + 'px',
+              'font-size': 14 + 'px',
+            }
+        }
       }
     },
     mounted() {
