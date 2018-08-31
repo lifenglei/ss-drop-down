@@ -1,10 +1,10 @@
 {
   "name": "ss-drop-down",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "A Vue dropdown component",
   "main": "src/dropDown.vue",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "npm publish"
   },
   "keywords": [
     "vue",

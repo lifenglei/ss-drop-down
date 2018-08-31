@@ -89,10 +89,13 @@
       dealData() {
         this.da.opt = this.dData;
         for (let i = 0; i < this.dData.length; i++) {
-          if (i === 0) {
-            this.da.sel = this.dData[0].des;
+          if (this.dData[i].sel) {
+            this.da.sel = this.dData[i].des;            
           }
           this.da.opt[i].des = this.dData[i].des ? this.dData[i].des : '未命名';
+        }
+        if (!this.da.sel) {
+          this.da.sel = this.dData[0].des;
         }
       },
       handleClick() {
