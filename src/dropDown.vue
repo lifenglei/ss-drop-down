@@ -87,6 +87,7 @@
     methods: {
       // 处理传入数据
       dealData() {
+        if (this.dData.length === 0) return
         this.da.opt = this.dData;
         for (let i = 0; i < this.dData.length; i++) {
           if (this.dData[i].sel) {
